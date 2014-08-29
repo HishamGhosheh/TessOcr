@@ -210,7 +210,7 @@ public class HomeActivity extends BaseActivity
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
         // We could use a BroadcastReceived here instead of an activity
-        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
+        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
         am.set(AlarmManager.RTC_WAKEUP, date.getTime(), pi);
         makeToast(R.string.alarm_created);
         finish();
