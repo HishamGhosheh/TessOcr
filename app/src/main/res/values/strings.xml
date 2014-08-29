@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OCR App</string>
+    <string name="err_negative_date">Please select a date that hasn\'t already passed.</string>
+    <string name="err_tessaract_init_failed">Couldn\'t initialize TessaractOCR data</string>
+    <string name="err_bitmap_decode_failed">Bitmap decode failed</string>
+    <string name="err_error_reading_image_file">Error reading image file</string>
+    <string name="err_ocr_failed_fmt">OCR failed with error\n%s</string>
+    <string name="label_ocr">OCR</string>
+    <string name="take_picture">Take picture</string>
+    <string name="label_alarms">Alarms</string>
+    <string name="create_alarm">Create alarm</string>
+    <string name="alarm_created">Alarm created</string>
+    <string name="its_time">It\'s time for your appointment</string>
+
+</resources>

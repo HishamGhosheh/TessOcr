@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">تعرف الحروف</string>
+    <string name="err_negative_date">يرجى اختيار تاريخ لم يمض مسبقاً</string>
+    <string name="err_tessaract_init_failed">تعذر تحميل ملفات التعرف على النصوص</string>
+    <string name="err_bitmap_decode_failed">تعذرت عملية قراءة الصورة</string>
+    <string name="err_error_reading_image_file">تعذر فتح ملف الصورة</string>
+    <string name="err_ocr_failed_fmt">تعذرت عملية التعرف على النصوص\ى%س</string>
+    <string name="label_ocr">التعرف على النصوص</string>
+    <string name="take_picture">التقاط صورة</string>
+    <string name="label_alarms">المنبهات</string>
+    <string name="create_alarm">إنشاء تنبيه</string>
+    <string name="alarm_created">تم الإنشاء</string>
+    <string name="its_time">حان أوان الموعد</string>
+
+</resources>
